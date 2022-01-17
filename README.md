@@ -1,6 +1,6 @@
 ## BS-API 
 
-An npm package that can interact with [bs-api](https://cr.is-a.dev) easily.
+An npm package that can interact with [bs-api](https://dsc.gg/jessie-support) easily.
 
 
 ### Install 
@@ -32,7 +32,7 @@ ______________________________________
 | `rankings/clubs` | Top Rankings ( Club ) |
 | `brawlers` | List Of Every Brawlers |
 | `events` | Events Rotation |
-|  You can find the list of every response types at [here](https://github.com/brawlie/BrawlStars-Stats) |
+|  You can find the list of every response types at [here](https://github.com/working) |
 
 
 
@@ -72,7 +72,7 @@ bs.<Request_Type>('<Type>','<TAG>').then(res => {
    ```js
    bs.ws({
    type: 'battlelog',
-   tag: '82PGQVJ2L'
+   tag: '00000'
    }, (err, data) => {
     console.log(err, data)
    })
@@ -116,13 +116,13 @@ npm install -g bsapi.js
 - ### Links
 
   - [Docs](https://bsapi.is-a.dev)
-  - [Repository](https://github.com/brawlie/bs-api)
+  - [Repository](https://github.com/mytictara/brawl-stars-api)
   
 - ### Contributors
 
-  - [@joeleeofficial](https://github.com/joeleeofficial)
-  - [@teambrawley](https://github.com/brawlie)
-  - [@w3cy](https://github.com/w3cy)
+  - [@dragn](https://github.com/)
+  - [@teamfiery](https://github.com/)
+  - [@teamMythic](https://github.com/)
 
 - ### Disclaimer
   - See [Supercell's Fan Content Policy](https://supercell.com/en/fan-content-policy/)
@@ -130,6 +130,6 @@ npm install -g bsapi.js
 
 <!--
  * bsapi.js
- * (c) 2021 Joe Lee
+ * (c) 2021 Joe Golden and Winter
  * Released under the Apache-2.0 License.
  -->
